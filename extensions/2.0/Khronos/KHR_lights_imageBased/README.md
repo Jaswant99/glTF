@@ -102,7 +102,7 @@ RGBM is stored as `VK_FORMAT_R8G8B8A8_UNORM`.
 It should be decoded and not be used directly. See [Light is beautiful](http://lousodrome.net/blog/light/tag/rgbm/).
 
 #### High Quality (Console and Desktop)
-- [BC6H](https://docs.microsoft.com/en-us/windows/desktop/direct3d11/bc6h-format)
+- [BC6H](http://khronos.org/registry/DataFormat/specs/1.2/dataformat.1.2.html#_bc6h)
 - Supported in Unity and Unreal
 
 If BC6H is not supported, the image should be decoded and can be reduced to 8 bits per color channel.
