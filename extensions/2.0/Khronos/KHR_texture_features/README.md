@@ -37,7 +37,8 @@ The extension is adding the properties `type` and `mipMap`.
 
 ### Validation and implementation notes
 
-- If `mipMap` or `type` does not match the source image, the texture is invalid.
+- If `mipMap` is `true` and the soure image does not have a mip map chain, the texture is invalid.
+- If `type` does not match the source image, the texture is invalid.
 - Both `2D` and `Cube` can have `mipMap` set to `true`.
 - If `2D` texture do have a mip map chain, use these and do not generate them.
 - Material textures referencing textures having several faces and/or a floating point image are invalid.
