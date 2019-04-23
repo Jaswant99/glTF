@@ -28,7 +28,7 @@ The extension is adding the property `diffuseEnvironmentMap`.
             {
                 "specularEnvironmentMap": 0,
                 "extensions": {
-                    "KHR_lights_iamgeBased_texture" : {
+                    "KHR_lights_imageBased_texture" : {
                         "diffuseEnvironmentMap": 1
                     }
                 }
